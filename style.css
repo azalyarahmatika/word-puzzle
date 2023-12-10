@@ -35,10 +35,8 @@ main {
   padding-right: calc((50vw - 495px)/2);
   position: relative;
   display: flex;
-  /* gap: 0.5rem; */
   justify-content: space-between;
   flex-direction: column;
-  /* background-color: #3FBFAD; */
 }
 
 .puzzle_container {

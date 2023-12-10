@@ -6,7 +6,7 @@ const makingWords = (words) => {
     wrapper.classList.add('word_wrapper');
     
     const wordImg = document.createElement('img');
-    wordImg.setAttribute('src', `./assets/${word}.png`);
+    wordImg.setAttribute('src', `../assets/${word}.png`);
     
     const wordLabel = document.createElement('label');
     wordLabel.setAttribute('for', `${word}`);
