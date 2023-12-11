@@ -6,7 +6,8 @@ const makingWords = (words) => {
     wrapper.classList.add('word_wrapper');
     
     const wordImg = document.createElement('img');
-    wordImg.setAttribute('src', `../assets/${word}.png`);
+    const lowerCaseWord = word.charAt(0).toLowerCase() + word.slice(1);
+    wordImg.setAttribute('src', `./assets/${lowerCaseWord}.png`);
     
     const wordLabel = document.createElement('label');
     wordLabel.setAttribute('for', `${word}`);

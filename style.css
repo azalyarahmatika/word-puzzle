@@ -14,10 +14,16 @@
   font-family: 'Sniglet', cursive;
 }
 
+body {
+  max-width: 1300px;
+  margin: auto;
+  background: var(--green-light);}
+
 main {
   background: var(--green-light);
   display: flex;
   gap: 0.5rem;
+  justify-content: space-between;
 }
 
 #left_section {
@@ -154,4 +160,10 @@ a {
   color: var(--green);
   font-weight: 700;
   letter-spacing: 0.7px;
+}
+
+@media screen and (min-width: 1300px ) {
+  #right_section {
+    padding-right: 4rem;
+  }
 }
